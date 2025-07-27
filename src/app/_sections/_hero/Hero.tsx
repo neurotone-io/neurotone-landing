@@ -3,9 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import ScrollDown from "./scroll-down.png";
-import Countdown from "@/app/components/Countdown";
-import lineLeft from "@/app/components/line-left.png";
-import lineRight from "@/app/components/line-right.png";
 
 const Hero = () => {
   const [email, setEmail] = useState("");

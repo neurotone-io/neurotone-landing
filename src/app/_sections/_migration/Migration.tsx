@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import Calendar from "./calendar.png";
 import Checkmark from "./checkmark.png";
-import OrangeX from "./x.png";
 
 export default function Migration() {
   return (
