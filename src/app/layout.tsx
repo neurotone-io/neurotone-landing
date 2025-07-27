@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description:
       "neurotone turns raw audio into emotional and behavioral insight, with powerful voice analysis made simple and scalable.",
     url: "https://www.neurotone.io",
-    siteName: "BeyondLink",
+    siteName: "neurotone",
     images: [
       {
         url: "https://www.neurotone.io/images/bl-logo.png",
