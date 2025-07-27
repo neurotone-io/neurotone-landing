@@ -8,7 +8,7 @@ export default function Faq() {
     {
       question: "What is neurotone?",
       answer:
-        "Neurotone is an advanced AI-powered platform that deeply analyzes audio and video \n" +
+        "neurotone is an advanced AI-powered platform that deeply analyzes audio and video \n" +
         "recordings to uncover emotions, patterns, and key insights. Designed for businesses and \n" +
         "researchers, it transforms raw media into meaningful data, enabling smarter decisions and \n" +
         "richer understanding across industries.",
@@ -16,7 +16,7 @@ export default function Faq() {
     {
       question: "How does neurotone work",
       answer:
-        "Neurotone processes your audiofiles using advanced AI algorithms that analyze emotions, \n" +
+        "neurotone processes your audiofiles using advanced AI algorithms that analyze emotions, \n" +
         "speech patterns, and nonverbal cues. It combines multiple data streams to deliver detailed, \n" +
         "real-time insights, helping you understand every nuance in your recordings effortlessly.",
     },

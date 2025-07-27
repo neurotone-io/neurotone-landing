@@ -31,9 +31,9 @@ export default function Migration() {
             </p>
 
             <p className="text-[#FFF0BC] mt-6 text-lg lg:text-2xl w-full lg:w-[80%] font-light leading-relaxed mb-6">
-              So, your current voice analysis is reaching its limit, but your insights don’t have to.
-              Neurotone ensures a smooth transition to smarter, deeper, and more actionable audio
-              intelligence.
+              {`So, your current voice analysis is reaching its limit, but your insights don’t have to.
+              neurotone ensures a smooth transition to smarter, deeper, and more actionable audio
+              intelligence.`}
             </p>
 
             <p className="text-[#FFF0BC] mt-10 text-md md:text-lg leading-relaxed font-light">

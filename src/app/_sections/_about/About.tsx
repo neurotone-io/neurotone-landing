@@ -55,9 +55,9 @@ export default function About() {
               <span className="text-[#FF6333]">neurotone</span>
             </h2>
             <p className="text-[#FFF0BC] font-light text-lg mt-5">
-              As businesses move beyond basic voice recording and surface-level transcription, it's time for
-              a smarter solution. Neurotone makes it simple to upgrade, unlocking powerful emotional and
-              behavioral insights from audio, in real time.
+              {`As businesses move beyond basic voice recording and surface-level transcription, it's time for
+              a smarter solution. neurotone makes it simple to upgrade, unlocking powerful emotional and
+              behavioral insights from audio, in real time.`}
             </p>
             <Link href="#Hero" className="w-full md:w-auto">
               <button className="mt-8 bg-[#FFF0BC] hover:bg-[#e7dfa9] transition-colors text-black font-semibold py-3 px-14 rounded-lg cursor-pointer w-full">
