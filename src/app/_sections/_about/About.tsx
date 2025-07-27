@@ -51,12 +51,13 @@ export default function About() {
           <div className="flex flex-col justify-around w-full md:w-[45%] z-10 text-left items-start h-full">
             <span className="tracking-widest text-[#FFF0BC]">About Us</span>
             <h2 className="text-4xl lg:text-6xl font-bold text-[#FFF0BC] mt-3 leading-tight">
-              More <span className="text-[#FF6333]">about</span>
-              <br />
-              Beyond Link
+              More about <br />
+              <span className="text-[#FF6333]">neurotone</span>
             </h2>
             <p className="text-[#FFF0BC] font-light text-lg mt-5">
-              {`With Firebase Dynamic Links set to deprecate on August 25, 2025, it's crucial to switch to a reliable deep linking solution. Beyond Link offers a straightforward migration process, ensuring your links remain functional without disruption.`}
+              As businesses move beyond basic voice recording and surface-level transcription, it's time for
+              a smarter solution. Neurotone makes it simple to upgrade, unlocking powerful emotional and
+              behavioral insights from audio, in real time.
             </p>
             <Link href="#Hero" className="w-full md:w-auto">
               <button className="mt-8 bg-[#FFF0BC] hover:bg-[#e7dfa9] transition-colors text-black font-semibold py-3 px-14 rounded-lg cursor-pointer w-full">
@@ -67,32 +68,33 @@ export default function About() {
 
           {/* Right Side */}
           <div className="flex flex-col-reverse md:flex-col w-full md:w-[45%] z-10 h-full justify-end">
-            <p className="text-[#FFF0BC] font-light md:mb-6 mt-6 md:mt-0 text-left text-lg">
+            {/*<p className="text-[#FFF0BC] font-light md:mb-6 mt-6 md:mt-0 text-left text-lg">
               {`Understanding the challenges of transitioning, Beyond Link offers dedicated support to ensure a smooth migration. Our team is ready to guide you through each step, minimizing any potential disruptions.`}
-            </p>
+            </p>*/}
 
             {/* Cards Container */}
             <div className="flex flex-col gap-4">
               <div className="flex flex-col md:flex-row gap-4">
                 <Card
                   icon={Shape2}
-                  title="100% Match Rate"
-                  desc="Our platform provides 100% matching because we are letting the link page stay alive until you finish installing the app."
+                  title="100% Audio Uptime"
+                  desc="Our system processes audio continuously, with no loss during transitions, delays, or integrations."
                   bgColor="bg-[#FF6333]"
                   textColor="text-white"
                 />
                 <Card
                   icon={Shape1}
-                  title="Seamless Migration"
-                  desc="Our platform provides 100% matching because we are letting the link page stay alive until you finish installing the app."
+                  title="Seamless Integration"
+                  desc="Easily connect Neurotone to your existing workflows or support tools, with minimal setup and zero disruption."
                   bgColor="bg-[#1A1A1A]"
                   textColor="text-white"
                 />
               </div>
               <Card
                 icon={Shape3}
-                title="Real-Time Analytics"
-                desc="Monitor link traffic in real time with our analytics dashboard to track user interactions and measure conversions effectively."
+                title="Real-Time Voice Analytics"
+                desc="Access live emotional and conversational insights through our intuitive dashboard.
+Track tone, stress, and speaker behavior as it happens."
                 bgColor="bg-[#FFF0BC]"
                 textColor="text-black"
               />

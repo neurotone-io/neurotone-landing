@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className=" flex justify-between text-sm text-center">
-          <p className="">Copyright © 2025 Beyond Link |</p>
+          <p className="">Copyright © 2025 neurotone |</p>
           <p className="">| All Rights Reserved</p>
         </div>
       </div>

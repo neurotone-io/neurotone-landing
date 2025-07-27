@@ -19,72 +19,28 @@ export default function Migration() {
 
         {/* Main Content */}
         <div className="relative flex flex-col items-start lg:items-center justify-between h-full z-10">
-          <span className="tracking-widest text-md text-[#FFF0BC] self-start lg:mb-6">
-            Migration
-          </span>
           {/* Text Column */}
           <div className="w-full lg:pt-0">
             <h1 className="text-5xl lg:text-6xl font-semibold text-[#FFF0BC] leading-tight w-full lg:w-2/3 mb-6">
-              <span className="text-[#FF6333]">Easy</span> Migration from
-              Firebase Dynamic Links
+              <span className="text-[#FF6333]">Effortless</span> shift from basic voice analytics to deep audio
+              intelligence
             </h1>
 
-            <p className="text-[#FFF0BC] mt-6 text-lg lg:text-2xl w-full lg:w-[45%] font-light leading-relaxed mb-6">
-              Google has announced that Firebase Dynamic Links will be
-              discontinued on August 25, 2025. After this date:
+            <p className="text-[#FFF0BC] mt-6 text-lg lg:text-2xl w-full lg:w-[80%] font-light leading-relaxed mb-6">
+              Traditional audio tools only scratch the surface. neurotone goes further, detecting emotions,
+              tone, and speaking patterns with precision.
             </p>
 
-            <ul className="mt-10 space-y-4 text-lg mb-6 font-light">
-              <li className="flex items-center gap-2">
-                <Image
-                  className="h-[14px] w-auto"
-                  src={OrangeX}
-                  alt={""}
-                  width={400}
-                  height={200}
-                />
-                <p className="text-[#FFF0BC] leading-relaxed">
-                  You won&apos;t be able to create new dynamic links.
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                <Image
-                  className="h-[14px] w-auto"
-                  src={OrangeX}
-                  alt={""}
-                  width={400}
-                  height={200}
-                />
-                <p className="text-[#FFF0BC] leading-relaxed">
-                  Existing links may stop functioning properly.
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                <Image
-                  className="h-[14px] w-auto"
-                  src={OrangeX}
-                  alt={""}
-                  width={400}
-                  height={200}
-                />
-                <p className="text-[#FFF0BC] leading-relaxed">
-                  Firebase support for deep links will no longer be available.
-                </p>
-              </li>
-            </ul>
+            <p className="text-[#FFF0BC] mt-6 text-lg lg:text-2xl w-full lg:w-[80%] font-light leading-relaxed mb-6">
+              So, your current voice analysis is reaching its limit, but your insights don’t have to.
+              Neurotone ensures a smooth transition to smarter, deeper, and more actionable audio
+              intelligence.
+            </p>
 
             <p className="text-[#FFF0BC] mt-10 text-md md:text-lg leading-relaxed font-light">
-              With Firebase Dynamic Links set to deprecate, it&apos;s time to
-              switch to a future-proof solution. Beyond Link makes migration
-              effortless, ensuring your deep links continue to work without
-              disruption.
-            </p>
-
-            <p className="text-[#FFF0BC] mt-4 text-md md:text-lg leading-relaxed font-light">
-              So, Firebase Dynamic Links are shutting down, but your deep
-              linking doesn&apos;t have to. Beyond Link provides a hassle-free
-              migration process, ensuring your links remain functional and
-              optimized for the future.
+              Outdated or shallow analytics platforms can miss key insights hidden in voice. Neurotone
+              makes it easy to upgrade, offering real-time, high-resolution analysis that brings true
+              understanding to every conversation.
             </p>
 
             {/* Feature Highlights */}
@@ -98,7 +54,7 @@ export default function Migration() {
                   height={200}
                 />
                 <p className="text-[#22F5EF] text-base lg:text-lg">
-                  Easy Migration
+                  Seamless Migration
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -110,7 +66,7 @@ export default function Migration() {
                   height={200}
                 />
                 <p className="text-[#22F5EF] text-base lg:text-lg">
-                  Zero Downtime
+                  Real-Time Emotion Detection
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -122,7 +78,7 @@ export default function Migration() {
                   height={200}
                 />
                 <p className="text-[#22F5EF] text-base lg:text-lg">
-                  Advanced Analytics
+                  Speaker-Level Insights
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -134,7 +90,7 @@ export default function Migration() {
                   height={200}
                 />
                 <p className="text-[#22F5EF] text-base lg:text-lg">
-                  Custom Branding
+                  Scalable & Secure
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -146,15 +102,16 @@ export default function Migration() {
                   height={200}
                 />
                 <p className="text-[#22F5EF] text-base lg:text-lg">
-                  Scalable &amp; Reliable
+                  Actionable Audio Metrics
                 </p>
               </div>
             </div>
 
             {/* Call-to-action Button */}
 
-            <Link href={"/blog"} className="flex justify-center">
-              <button className="mt-10 w-full md:w-auto inline-flex justify-center items-center px-14 py-3 bg-[#FFF0BC] hover:bg-[#e2d5a7] text-black rounded-md font-medium cursor-pointer transition-colors">
+            <Link href={""} className="flex justify-center">
+              <button
+                className="mt-10 w-full md:w-auto inline-flex justify-center items-center px-14 py-3 bg-[#FFF0BC] hover:bg-[#e2d5a7] text-black rounded-md font-medium cursor-pointer transition-colors">
                 READ MORE
               </button>
             </Link>

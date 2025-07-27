@@ -6,30 +6,34 @@ export default function Faq() {
 
   const faqItems = [
     {
-      question: "What is Beyond Link?",
+      question: "What is neurotone?",
       answer:
-        "Beyond Link is an advanced deep linking platform that helps businesses and developers create seamless user experiences across web and mobile applications. It enables smart routing, cross-platform compatibility, and in-depth analytics, making it easier to connect users with the right content effortlessly.",
+        "Neurotone is an advanced AI-powered platform that deeply analyzes audio and video \n" +
+        "recordings to uncover emotions, patterns, and key insights. Designed for businesses and \n" +
+        "researchers, it transforms raw media into meaningful data, enabling smarter decisions and \n" +
+        "richer understanding across industries.",
     },
     {
-      question: "How it works?",
+      question: "How does neurotone work",
       answer:
-        "Beyond Link works by automatically generating dynamic deep links that adjust based on user behavior, device type, and contextual factors. The platform integrates with your digital ecosystem to provide real-time insights and optimized routing.",
+        "Neurotone processes your audiofiles using advanced AI algorithms that analyze emotions, \n" +
+        "speech patterns, and nonverbal cues. It combines multiple data streams to deliver detailed, \n" +
+        "real-time insights, helping you understand every nuance in your recordings effortlessly.",
     },
     {
-      question: "Is It Free to Use?",
+      question: "How easy is it to set up neurotone?",
       answer:
-        "Beyond Link offers a flexible pricing model with a free tier for basic usage and premium plans that unlock advanced features. This makes it suitable for startups and large enterprises alike.",
+        "Getting started with neurotone is simple and hassle-free. Our user-friendly platform, clear \n" +
+        "documentation, and dedicated support team make integration quick,so you can start gaining \n" +
+        "valuable insights with minimal technical effort.",
     },
     {
-      question: "How Easy Is It to Set Up?",
+      question: "How secure is my data with neurotone?",
       answer:
-        "Setting up Beyond Link is straightforward. With an intuitive interface, comprehensive documentation, and robust support, integration is quick and requires minimal technical expertise.",
-    },
-    {
-      question: "Can It Generate Deep Links for iOS and Android?",
-      answer:
-        "Yes, Beyond Link is fully compatible with both iOS and Android platforms. It creates smart deep links that direct users to the appropriate app store or in-app content, enhancing the overall mobile experience.",
-    },
+        "We take data security seriously. neurotone uses industry-standard encryption and strict access\n" +
+        "controls to protect your audio and video files. Your data is stored securely and processed in \n" +
+        "compliance with privacy regulations, giving you peace of mind throughout your analysis.",
+    }
   ];
 
   return (

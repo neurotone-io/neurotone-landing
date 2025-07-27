@@ -33,32 +33,32 @@ export default function Overview() {
           {/* Left Content */}
           <div className="flex flex-col w-full md:w-[50%] z-10">
             <span className="tracking-widest text-sm font-semibold text-[#FFF0BC]">
-              Strategy
+              Overview
             </span>
             <h2 className="text-4xl lg:text-5xl font-bold text-[#FFF0BC] mt-3 leading-tight">
-              <span className="text-[#FF6333]">All</span> you need.
+              <span className="text-[#FF6333]">All</span> the insight.
               <br />
-              Nothing you don’t.
+              None of the noise.
             </h2>
             <p className="text-[#FFF0BC] font-light mt-5 max-w-xl">
-              Tailor your deep linking experience with essential features—no
-              clutter, just powerful tools designed for efficiency.
+              Focus on what matters with streamlined voice analysis, no complexity, just powerful tools
+              built for clarity and action.
             </p>
 
-            <div className="flex flex-col gap-6 mt-8 md:mt-[200px]">
+            <div className="flex flex-col gap-6 mt-6 md:mt-[200px]">
               <FeatureItem
-                title="Custom Branding"
-                desc="Maintain your brand identity with fully customizable links."
+                title="Emotion-First Analysis"
+                desc="Detect stress, confidence, hesitation, and more. Straight from voice."
                 accentColor="bg-[#FF6333]"
               />
               <FeatureItem
-                title="Analytics"
-                desc="Monitor performance with real-time analytics."
+                title="Speaker-Level Metrics"
+                desc="Track individual speaking patterns and emotional shifts over time."
                 accentColor="bg-[#1A1A1A]"
               />
               <FeatureItem
-                title="Ease of Use"
-                desc="Intuitive and hassle-free setup, designed for developers and non-developers alike."
+                title="Simple Setup"
+                desc="Designed for fast onboarding. No technical barriers, just results."
                 accentColor="bg-[#1A1A1A]"
               />
             </div>

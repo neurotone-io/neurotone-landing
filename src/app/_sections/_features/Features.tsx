@@ -55,9 +55,8 @@ export default function Features() {
               <p className="text-[#FF6333] mt-2">Features</p>
             </h2>
             <p className="text-[#FFF0BC] font-light mt-6 text-lg">
-              Powerful tools to enhance your deep linking experience. Beyond
-              Link ensures seamless navigation, better user engagement, and
-              actionable insights.
+              Powerful voice analysis tools that unlock the full potential of audio. neurotone delivers
+              emotional clarity, behavioral insight, and speaker-level intelligence — all from sound.
             </p>
             <Link href="#Hero" className="w-full md:w-auto">
               <button className="mt-8 bg-[#fff0bc] hover:bg-[#e7dfa9] transition-colors text-black font-semibold py-3 px-14 rounded-lg cursor-pointer w-full">
@@ -71,8 +70,8 @@ export default function Features() {
             {/* Column 1 */}
             <div className="flex flex-col gap-6 sm:mt-12 items-center">
               <FeatureCard
-                title="Smart Routing"
-                desc="Automatically direct users to the right destination."
+                title="Emotion Detection"
+                desc="Analyzes the speaker’s voice to detect emotions like happiness, frustration, sadness, nervousness, neutrality, anger, or stres."
                 bgColor="bg-[#FF6333]"
                 textColor="text-black"
                 icon={
@@ -86,8 +85,8 @@ export default function Features() {
                 }
               />
               <FeatureCard
-                title="Cross-Platform Support"
-                desc="Works flawlessly on iOS, Android, and web."
+                title="Transcription and Semantic Analysis"
+                desc="neurotone doesn’t just convert audio to text, it also understands the meaning behind the words."
                 bgColor="bg-[#1A1A1A]"
                 textColor="text-[#FFF0BC]"
                 icon={
@@ -105,8 +104,8 @@ export default function Features() {
             {/* Column 2 (offset vertically for staggered design) */}
             <div className="flex flex-col gap-6 items-center">
               <FeatureCard
-                title="Advanced Analytic"
-                desc="Gain insights into link performance and user behavior."
+                title="Speaking Style and Tone Metrics"
+                desc="Neurotone analyzes how a person speaks, including speech speed, pitch variation, volume changes, pauses, and filler word usage."
                 bgColor="bg-[#1A1A1A] "
                 textColor="text-[#FFF0BC]"
                 icon={
@@ -120,8 +119,8 @@ export default function Features() {
                 }
               />
               <FeatureCard
-                title="Fast & Scalable"
-                desc="Optimized for speed and reliability, even at scale."
+                title="Emotional Progression Over Time"
+                desc="Track how emotions evolve throughout the audio, from the first second to the last."
                 bgColor="bg-[#FFF0BC]"
                 textColor="text-black"
                 icon={

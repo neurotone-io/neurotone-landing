@@ -4,6 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import ScrollDown from "./scroll-down.png";
 import Countdown from "@/app/components/Countdown";
+import lineLeft from "@/app/components/line-left.png";
+import lineRight from "@/app/components/line-right.png";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -58,10 +60,9 @@ const Hero = () => {
     >
       <div className="max-w-[1440px] flex flex-col items-center text-center">
         <h1 className="text-4xl md:text-6xl font-light -mb-20 mt-8 min-[500px]:-mb-30 min-[580px]:-mb-36 sm:-mb-30 md:-mb-40 lg:-mb-50 xl:-mb-74 sm:mt-12 md:mt-16 z-10">
-          <span className="text-[#FF6333] font-normal">Firebase</span> dynamic
-          links
+          <span className="text-[#FF6333] font-normal">neurotone</span> Where tone meets
           <p className="text-[#FF6333] font-normal">
-            alternative<span className="text-[#FFF0BC]">.</span>{" "}
+            intelligence<span className="text-[#FFF0BC]">.</span>{" "}
           </p>
         </h1>
 
@@ -79,16 +80,13 @@ const Hero = () => {
 
         <div className="flex flex-col">
           <p className="text-lg md:text-xl font-light mb-6 mt-20 md:mt-30 lg:mt-10 xl:-mt-36 z-10">
-            Effortlessly connect users to the right content, across platforms
-            and devices.
-            <br />
-            <strong>Beyond Link</strong> makes deep linking
-            <span className="text-[#FF6333]"> simple</span>,
-            <span className="text-[#FF6333]"> reliable</span>, and
-            <span className="text-[#FF6333]"> scalable</span>.
+            Neurotone turns raw audio into emotional and behavioral insight, with powerful voice
+            analysis made simple and scalable.
+            <br/> Hear more than words, understand
+            <span className="text-[#FF6333]"> emotions</span>,
+            <span className="text-[#FF6333]"> tone</span>, and
+            <span className="text-[#FF6333]"> intent</span>.
           </p>
-
-          <Countdown targetDate="2025-07-07T12:00:00" />
 
           <form onSubmit={handleSubmit} className="flex flex-col items-center">
             <p className="mb-4 text-sm font-light text-center text-[#FFF0BC]">
@@ -97,7 +95,8 @@ const Hero = () => {
 
             <div className="w-full md:w-auto">
               {/* Desktop version */}
-              <div className="hidden md:flex items-center border border-[#FFF0BC] rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg">
+              <div
+                className="hidden md:flex items-center border border-[#FFF0BC] rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg">
                 <input
                   type="email"
                   required
@@ -118,7 +117,8 @@ const Hero = () => {
 
               {/* Mobile version */}
               <div className="md:hidden">
-                <div className="border border-[#FFF0BC] rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg">
+                <div
+                  className="border border-[#FFF0BC] rounded-lg overflow-hidden transition-shadow duration-300 hover:shadow-lg focus-within:shadow-lg">
                   <input
                     type="email"
                     required

@@ -21,15 +21,13 @@ export default function Strategy() {
               Strategy
             </span>
             <h2 className="text-4xl lg:text-6xl font-bold text-[#FFF0BC] leading-snug">
-              Let’s <span className="text-[#FF6333]">learn</span>
+              Experience <span className="text-[#FF6333]">neurotone</span>
               <br />
-              <span className="text-[#FF6333]">how</span> BL works
+              in Action
             </h2>
             <p className="text-[#FFF0BC] text-lg font-light">
-              Beyond Link simplifies deep linking with a seamless, intuitive
-              process. Generate, customize, and track your links effortlessly—no
-              complex setup required. Watch the video to see how easy it is to
-              get started!
+              Curious how it works? Try the demo and see how neurotone transforms voice into emotion,
+              intent, and insight, all in real time. No setup. Just results.
             </p>
 
             {/* Buttons */}

@@ -15,13 +15,13 @@ export default function CallToAction() {
           className="hidden md:flex md:absolute inset-0 items-center justify-center text-[80px] lg:text-[180px] font-bold text-transparent opacity-10 select-none pointer-events-none"
           style={{ WebkitTextStroke: "1px #FFF0BC" }}
         >
-          Beyond Link
+          neurotone
         </span>
 
         {/* Main Content */}
         <div className="relative z-10 space-y-8 md:space-y-16 font-outfit">
           <h2 className="text-5xl lg:text-5xl font-bold text-[#FFF0BC]">
-            Ready to go <span className="text-[#FF6333]">Beyond?</span>
+            Ready to go <span className="text-[#FF6333]">beyond?</span>
           </h2>
           <p className="text-[#FFF0BC] font-light mt-4 text-xl md:text-2xl">
             Subscribe and be among the first to
