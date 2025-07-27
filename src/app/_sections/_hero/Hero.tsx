@@ -77,7 +77,7 @@ const Hero = () => {
 
         <div className="flex flex-col">
           <p className="text-lg md:text-xl font-light mb-6 mt-20 md:mt-30 lg:mt-10 xl:-mt-36 z-10">
-            Neurotone turns raw audio into emotional and behavioral insight, with powerful voice
+            neurotone turns raw audio into emotional and behavioral insight, with powerful voice
             analysis made simple and scalable.
             <br/> Hear more than words, understand
             <span className="text-[#FF6333]"> emotions</span>,
