@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <Link href="/#Hero">
               <Image
-                src="/images/bl-logo-white.png"
+                src="/images/neurotone_2.png"
                 width={1000}
                 height={600}
                 alt="Beyond Link Logo"
@@ -22,10 +22,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row gap-6">
             {/* Links */}
             <div className="flex flex-col md:flex-row gap-6 text-md font-medium items-center mb-4 md:mb-0 md:mr-12">
-              <Link href="/policy" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Policy
               </Link>
-              <Link href="/tos" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Terms of Service
               </Link>
               <Link href="/#Hero" className="hover:underline">

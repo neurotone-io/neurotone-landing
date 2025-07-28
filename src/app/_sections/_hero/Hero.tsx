@@ -58,7 +58,7 @@ const Hero = () => {
       <div className="max-w-[1440px] flex flex-col items-center text-center">
         <h1 className="text-4xl md:text-6xl font-light -mb-20 mt-8 min-[500px]:-mb-30 min-[580px]:-mb-36 sm:-mb-30 md:-mb-40 lg:-mb-50 xl:-mb-74 sm:mt-12 md:mt-16 z-10">
           <span className="text-[#FF6333] font-normal">neurotone</span> Where tone meets
-          <p className="text-[#FF6333] font-normal">
+          <p>
             intelligence<span className="text-[#FFF0BC]">.</span>{" "}
           </p>
         </h1>

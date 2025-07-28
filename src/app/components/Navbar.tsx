@@ -54,13 +54,6 @@ const Navbar = () => {
             Dashboard
           </Link>
           <Link
-            href="/blog"
-            className="hover:text-orange-300 transition-colors text-xl"
-            onClick={() => setIsOpen(false)}
-          >
-            Blog
-          </Link>
-          <Link
             href="/#faq"
             className="hover:text-orange-300 transition-colors text-xl"
             onClick={() => setIsOpen(false)}
@@ -82,7 +75,7 @@ const Navbar = () => {
         <div className="w-full max-w-[1440px] flex items-center justify-between">
           <Link href="/">
             <Image
-              src="/images/bl-logo.png"
+              src="/images/neurotone_1.png"
               width={1000}
               height={600}
               alt="Beyond Link Logo"
@@ -134,12 +127,6 @@ const Navbar = () => {
               className="hover:text-orange-300 transition-colors"
             >
               Dashboard
-            </Link>
-            <Link
-              href="/blog"
-              className="hover:text-orange-300 transition-colors"
-            >
-              Blog
             </Link>
             <span className="text-gray-400">/</span>
             <Link
