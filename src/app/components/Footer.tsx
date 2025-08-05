@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row gap-6">
             {/* Links */}
             <div className="flex flex-col md:flex-row gap-6 text-md font-medium items-center mb-4 md:mb-0 md:mr-12">
-              <Link href="/" className="hover:underline">
+              <Link href="/policy" className="hover:underline">
                 Policy
               </Link>
               <Link href="/" className="hover:underline">
