@@ -3,12 +3,13 @@
 import { useState } from "react";
 import ContactForm from "../components/ContactForm";
 
-export default function Policy() {
+export function Policy() {
   const [showForm, setShowForm] = useState(false);
   return (
     <div className="min-h-screen pt-16 font-outfit bg-[#09090B]">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-[#FF6333] to-[#8d361c] bg-amber-900 py-8 md:py-12 px-4 text-center text-[#FFF0BC]">
+      <header
+        className="bg-gradient-to-r from-[#FF6333] to-[#8d361c] bg-amber-900 py-8 md:py-12 px-4 text-center text-[#FFF0BC]">
         <h1 className="text-2xl md:text-5xl font-bold text-[#FFF0BC]">
           Privacy Policy
         </h1>
@@ -23,9 +24,9 @@ export default function Policy() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-[#FF6333] mb-4">Overview</h2>
           <p className="text-[#FFF0BC] leading-relaxed mb-4">
-            At neurotone (“we,” “our,” or “us”), your privacy is a top priority. This Privacy Policy
+            {`At neurotone (“we,” “our,” or “us”), your privacy is a top priority. This Privacy Policy
             explains how we collect, use, store, and protect your information when you use our website,
-            services, and AI-powered audio/video analysis tools (collectively, the “Platform”).
+            services, and AI-powered audio/video analysis tools (collectively, the “Platform”).`}
           </p>
           <p className="text-[#FFF0BC] leading-relaxed">
             By accessing or using neurotone, you agree to the terms of this Privacy Policy. If you do not
@@ -99,7 +100,8 @@ export default function Policy() {
             </li>
           </ul>
           <p className="text-[#FFF0BC] leading-relaxed mt-4">
-            We <strong>do not</strong> use your media files for model training unless you give explicit, written consent.
+            We <strong>do not</strong> use your media files for model training unless you give explicit, written
+            consent.
           </p>
         </section>
 
@@ -196,7 +198,7 @@ export default function Policy() {
           </p>
         </section>
 
-        {/* Section 9: Children’s Privacy */}
+        {/* Section 9: Children Privacy */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-[#FF6333] mb-4">
             {`Children’s Privacy`}
@@ -237,7 +239,7 @@ export default function Policy() {
         <section className="mb-12">
           <p className="text-[#FFF0BC] leading-relaxed">August 2025</p>
         </section>
-        {showForm && <ContactForm onClose={() => setShowForm(false)} />}
+        {showForm && <ContactForm onClose={() => setShowForm(false)}/>}
       </main>
     </div>
   );
