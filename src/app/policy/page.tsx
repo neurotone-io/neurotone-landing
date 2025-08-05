@@ -30,7 +30,7 @@ export function Policy() {
           </p>
           <p className="text-[#FFF0BC] leading-relaxed">
             By accessing or using neurotone, you agree to the terms of this Privacy Policy. If you do not
-            agree, please do not use our services
+            agree, please do not use our services.
           </p>
         </section>
 
@@ -216,7 +216,7 @@ export function Policy() {
             Changes to This Policy
           </h2>
           <p className="text-[#FFF0BC] leading-relaxed mb-4">
-            {`We may update this Privacy Policy periodically. We'll notify you of significant changes via
+            {`We may update this Privacy Policy periodically. Well notify you of significant changes via
             email or within the platform. Continued use of the platform after such updates constitutes
             acceptance of the revised policy.`}
           </p>
