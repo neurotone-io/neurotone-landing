@@ -13,7 +13,7 @@ export default function TermsOfService() {
           Terms of Service
         </h1>
         <p className="mt-4 text-lg md:text-xl text-[#FFF0BC]">
-          Please review our terms and conditions for using BeyondLink
+          Please review our terms and conditions for using neurotone
         </p>
       </header>
 
