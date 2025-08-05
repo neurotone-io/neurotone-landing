@@ -216,7 +216,7 @@ export function Policy() {
             Changes to This Policy
           </h2>
           <p className="text-[#FFF0BC] leading-relaxed mb-4">
-            {`We may update this Privacy Policy periodically. Well notify you of significant changes via
+            {`We may update this Privacy Policy periodically. We'll notify you of significant changes via
             email or within the platform. Continued use of the platform after such updates constitutes
             acceptance of the revised policy.`}
           </p>
