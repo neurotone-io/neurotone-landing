@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ContactForm from "../components/ContactForm";
 
-export function Policy() {
+export default function Policy() {
   const [showForm, setShowForm] = useState(false);
   return (
     <div className="min-h-screen pt-16 font-outfit bg-[#09090B]">
