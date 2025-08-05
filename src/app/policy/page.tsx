@@ -199,7 +199,7 @@ export default function Policy() {
         {/* Section 9: Children’s Privacy */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-[#FF6333] mb-4">
-            Children’s Privacy
+            {`Children’s Privacy`}
           </h2>
           <p className="text-[#FFF0BC] leading-relaxed mb-4">
             neurotone is not intended for use by individuals under the age of 18. We do not knowingly
