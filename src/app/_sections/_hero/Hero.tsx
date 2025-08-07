@@ -24,7 +24,7 @@ const Hero = () => {
       const data = await response.json();
 
       if (response.ok) {
-        setMessage("🎉 You have successfully subscribed!");
+        setMessage("🎉 You're on the list! As soon as the demo drops, you'll be the first to experience it.");
         setEmail("");
 
         // Google Tag tracking event on successful subscription

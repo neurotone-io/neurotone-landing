@@ -26,12 +26,16 @@ export const metadata: Metadata = {
   description:
     "neurotone turns raw audio into emotional and behavioral insight, with powerful voice analysis made simple and scalable.",
   keywords: [
-    "Deep Linking",
-    "Data Migration",
-    "Firebase Dynamic Links",
-    "BeyondLink",
-    "Cross-Platform Integration",
-    "User Experience",
+    "neurotone",
+    "Voice Analysis",
+    "Speech Emotion Recognition",
+    "Tone Detection",
+    "AI Voice Insights",
+    "Emotional Intelligence",
+    "Voice Tech",
+    "Human-AI Interaction",
+    "Vocal Biomarkers",
+    "Real-time Emotion Detection",
   ],
   authors: [{ name: "neurotone", url: "https://www.neurotone.io" }],
   openGraph: {
