@@ -78,7 +78,7 @@ const Navbar = () => {
               src="/images/neurotone_1.png"
               width={1000}
               height={600}
-              alt="Beyond Link Logo"
+              alt="neurotone Link Logo"
               className="h-8 w-auto hover:opacity-90 transition-opacity"
             />
           </Link>

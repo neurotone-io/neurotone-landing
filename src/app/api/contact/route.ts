@@ -21,21 +21,21 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         sender: {
           name: `${firstName} ${lastName}`,
-          email: "info@stagecoding.com", // ✅ verified sender email
+          email: "info@neurotone.io", // ✅ verified sender email
         },
         replyTo: {
           email: email, // ✅ user's provided email (replyTo)
           name: `${firstName} ${lastName}`,
         },
-        to: [{ email: "info@stagecoding.com" }],
-        subject: "BeyondLink Contact Form Submission",
+        to: [{ email: "info@neurotone.io" }],
+        subject: "neurotone Contact Form Submission",
         htmlContent: `
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BeyondLink Contact Form Submission</title>
+    <title>neurotone Contact Form Submission</title>
     <style>
       /* Reset & Modern Styling */
       body {
@@ -98,7 +98,7 @@ export async function POST(req: NextRequest) {
   <body>
     <div class="container">
       <div class="header">
-        <h2>BeyondLink Contact Form Submission</h2>
+        <h2>neurotone Contact Form Submission</h2>
       </div>
       <div class="content">
         <p><strong>Name:</strong> ${firstName} ${lastName}</p>

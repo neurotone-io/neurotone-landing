@@ -13,7 +13,7 @@ const Footer = () => {
                 src="/images/neurotone_2.png"
                 width={1000}
                 height={600}
-                alt="Beyond Link Logo"
+                alt="neurotone Link Logo"
                 className="h-10 w-auto hover:opacity-90 transition-all"
               />
             </Link>
