@@ -87,7 +87,7 @@ const Hero = () => {
 
           <form onSubmit={handleSubmit} className="flex flex-col items-center">
             <p className="mb-4 text-sm font-light text-center text-[#FFF0BC]">
-              {`Subscribe for early access and don't miss out on the nextevolution in deep linking.`}
+              {`Subscribe for early access and don’t miss out on the next evolution in voice analysis.`}
             </p>
 
             <div className="w-full md:w-auto">
