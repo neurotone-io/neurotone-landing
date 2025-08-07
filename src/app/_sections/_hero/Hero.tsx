@@ -85,7 +85,7 @@ const Hero = () => {
             <span className="text-[#FF6333]"> intent</span>.
           </p>
 
-          <form onSubmit={handleSubmit} className="flex flex-col items-center">
+          <form onSubmit={handleSubmit} className="flex flex-col items-center" style={{marginTop: '35px'}}>
             <p className="mb-4 text-sm font-light text-center text-[#FFF0BC]">
               {`Subscribe for early access and don’t miss out on the next evolution in voice analysis.`}
             </p>
